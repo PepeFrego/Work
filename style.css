@@ -75,7 +75,7 @@ a{
     height:1fr;
     width: 400px;
     border-radius: 5px;
-
+    margin-top: 4px;
 }
 
 .notice1 h3{
@@ -88,10 +88,11 @@ a{
     height:300px;
     width: 400px;
     border-radius: 5px;
+    margin-top: 20px;
 }
 .notice2 h3{
     display: flex;
-    
+    margin-top: 4%;
 }
 .notice3 img{
     margin: 15px;
@@ -99,10 +100,13 @@ a{
     height:300px;
     width: 400px;
     border-radius: 5px;
+    margin-top: 4px;
 }
-.notice, h3{
+.notice h3{
     display: flex;
     text-align: center;
+    border: 2px solid #B0B0B0;
+    margin-bottom: 0px;
 }
 .escuelas-title{
     display: flex;
@@ -211,18 +215,3 @@ align-items: center;
    display: flex;
 }
 
-h2{
-    display: block;
-    background-color: silver;
-    border: 1px solid black;
-    margin-left: 40%;
-    margin-right: 40%;
-}
-.escuelas-title{
-    display: block;
-    background-color: silver;
-    border: 1px solid black;
-    margin-left: 45%;
-    margin-right: 45%;
-    text-align: center;
-}
