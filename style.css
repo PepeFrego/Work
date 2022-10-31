@@ -72,10 +72,15 @@ a{
 .notice1 img{
     margin: 15px;
     margin-bottom: 0px;
-    height:300px;
+    height:1fr;
     width: 400px;
     border-radius: 5px;
 
+}
+
+.notice1 h3{
+    display: flex;
+    text-align: center;
 }
 .notice2 img{
     margin: 15px;
@@ -83,6 +88,10 @@ a{
     height:300px;
     width: 400px;
     border-radius: 5px;
+}
+.notice2 h3{
+    display: flex;
+    
 }
 .notice3 img{
     margin: 15px;
@@ -93,7 +102,7 @@ a{
 }
 .notice, h3{
     display: flex;
-    justify-content: center;
+    text-align: center;
 }
 .escuelas-title{
     display: flex;
@@ -194,3 +203,11 @@ align-items: center;
 .h4-horario{
     padding-left: 7px;
 }
+#header-main a{
+    text-decoration: none;
+    color: black;
+}
+.inscription{
+   display: flex;
+}
+
