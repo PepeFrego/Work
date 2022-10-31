@@ -88,11 +88,11 @@ a{
     height:300px;
     width: 400px;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 4px;
 }
 .notice2 h3{
     display: flex;
-    margin-top: 4%;
+    
 }
 .notice3 img{
     margin: 15px;
