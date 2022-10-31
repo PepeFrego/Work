@@ -211,3 +211,9 @@ align-items: center;
    display: flex;
 }
 
+h2{
+    display: block;
+    background-color: silver;
+    border: 1px solid black;
+    
+}
