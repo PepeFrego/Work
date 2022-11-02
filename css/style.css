@@ -8,9 +8,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
     border: 2px solid;
     font-size: 17px;
+    width: 100%;
 
 }
 .header{
@@ -43,9 +43,14 @@ a{
     color: black;
 }
 
+main {
+    width: 100%;
+}
+
 .notice-container{
     padding: 10px;
     border-bottom: 1px solid dodgerblue;
+    width: 100%;
     
 }
 .notice-title{
@@ -54,12 +59,16 @@ a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
 }
-.notice{
+
+.flex{
     margin: 15px;
     display: flex;
     justify-content: space-around;
     font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    flex-flow: wrap;
+    gap: 1em;
     
 }
 .notice a{
@@ -109,6 +118,14 @@ a{
     border: 2px solid #B0B0B0;
     margin-bottom: 0px;
 }
+
+.title {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    font-size: 30px;
+}
+
 .escuelas-title{
     display: flex;
     justify-content: center;
@@ -167,27 +184,39 @@ a{
 .intalaciones h3{
     margin-bottom: 20px;
 }
-.footer{
+
+footer{
     border: 3px solid gray;
     display: flex;
    justify-content: center;
+   gap: 1.5em;
     margin: 10px;
     margin-bottom: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     background-color:dodgerblue;
 }
-.footer img{
+footer img{
     height: 40px;
     width: 40px;
-    padding-bottom: 30px;
 }
 .social-media {
-display: inline-flex;
-justify-content: baseline;
+display: flex;
+flex-direction: column;
 align-items: center;
-    
+gap: .5em;
 }
+
+.social-media p {
+    margin-bottom: 0;
+}
+
+.social-media div {
+    display: flex;
+    flex-direction: row;
+    gap: .25em;
+}
+
 .contact{
     display: flex;
     justify-content: baseline;
@@ -212,8 +241,17 @@ align-items: center;
     text-decoration: none;
     color: black;
 }
-.inscription{
-   display: flex;
+
+form {
+    padding: 0 1em;
+}
+
+form .input{
+    margin-top: .5em;
+}
+
+form .input label {
+    display: block !important;
 }
 
 h3{
@@ -223,11 +261,13 @@ h3{
     margin-left: 2px;
     margin-right: 2px;
 }
+
 /* Mobile*/
 @media only screen and (max-width: 500px) {
 .header{
 width: 490px;
 justify-content: space-between;
+min-height: 80px;
 }
 .header-container {
     font-size: 10px;
@@ -240,11 +280,15 @@ justify-content: space-between;
 }
 .header-main li{
     margin: 2px;
-    
-    
 }
 
 }
+
+
+
+
+
+
 
 /* Tablet*/
 @media only screen and (min-widht: 501px) and (max-width: 980px) {
