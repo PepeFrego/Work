@@ -223,3 +223,25 @@ h3{
     margin-left: 2px;
     margin-right: 2px;
 }
+/* Mobile*/
+@media only screen and (max-width: 500px) {
+.header{
+width: 490px;
+}
+.header-container{
+    display: flex;
+    justify-content: baseline;
+    
+}
+
+
+}
+
+/* Tablet*/
+@media only screen and (min-widht: 501px) and (max-width: 980px) {
+
+}
+/* Desktop*/
+@media only screen and (min-width: 981px) {
+
+}
