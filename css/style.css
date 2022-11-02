@@ -57,7 +57,7 @@ a{
 .notice{
     margin: 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
@@ -92,6 +92,7 @@ a{
 }
 .notice2 h3{
     display: flex;
+    justify-content: center;
     
 }
 .notice3 img{
@@ -215,3 +216,10 @@ align-items: center;
    display: flex;
 }
 
+h3{
+    display: flex;
+    justify-content: center;
+    border: #B0B0B0 solid 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
