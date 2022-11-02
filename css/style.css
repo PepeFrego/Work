@@ -227,13 +227,22 @@ h3{
 @media only screen and (max-width: 500px) {
 .header{
 width: 490px;
+justify-content: space-between;
 }
-.header-container{
+.header-container {
+    font-size: 10px;
     display: flex;
-    justify-content: baseline;
+}
+.header-main{
+    padding: 0px;
+    margin: 5px;
+
+}
+.header-main li{
+    margin: 2px;
+    
     
 }
-
 
 }
 
